@@ -19,12 +19,12 @@ int main(){
     count=count%2;
     scanf("%c",&ch);
     switch(ch){
-        case 'o':
+        case 'e'://even
         if(count==0)
             printf("No error");
         else printf("Error exist");
         break;
-        case 'e':
+        case 'o'://odd
         if(count==1)
         printf("No error");
         else printf("Error exist");

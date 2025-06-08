@@ -19,13 +19,13 @@ int main(){
     count=count%2;
     scanf("%c",&ch);
     switch(ch){
-        case 'o':
+        case 'e'://odd
         if(count==0)
             strcat(string,"0");
         else strcat(string,"1");
         printf("Updated string %s",string);
         break;
-        case 'e':
+        case 'o'://even
         if(count==1)
             strcat(string,"0");
         else strcat(string,"1");
